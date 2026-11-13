@@ -1,0 +1,3 @@
+{"aux_kwh": 20, "available_hours": 100, "facility": "f1", "id": "m1", "it_kwh": 100, "month": 1, "work_a": 0, "work_b": 0}
+{"aux_kwh": 15, "available_hours": 100, "facility": "f2", "id": "m2", "it_kwh": 110, "month": 1, "work_a": 100, "work_b": 8}
+{"aux_kwh": 30, "available_hours": 100, "facility": "f3", "id": "m3", "it_kwh": 90, "month": 1, "work_a": 40, "work_b": 60}

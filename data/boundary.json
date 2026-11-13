@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "tables": {
+    "facilities": {
+      "file": "boundary-facilities.jsonl",
+      "sha256": "de8b08c0dcaa6cb531a1d7525f83a0092fb092858f82b74431a1f74c71c43766",
+      "bytes": 148,
+      "rows": 3,
+      "fields": [
+        "id",
+        "hardware",
+        "sla"
+      ]
+    },
+    "monthly": {
+      "file": "boundary-monthly.jsonl",
+      "sha256": "5a149324b3be593a7bf74e18c0933231ba768de67825bb0a0a35cb1098148409",
+      "bytes": 372,
+      "rows": 3,
+      "fields": [
+        "id",
+        "facility",
+        "month",
+        "it_kwh",
+        "aux_kwh",
+        "work_a",
+        "work_b",
+        "available_hours"
+      ]
+    },
+    "energy_blocks": {
+      "file": "boundary-energy_blocks.jsonl",
+      "sha256": "0878ac884c58d7d2f9b6ee8e977740289930fd26b39df7aa920cd721bfa6cd5f",
+      "bytes": 183,
+      "rows": 3,
+      "fields": [
+        "id",
+        "monthly",
+        "kwh",
+        "kg_per_kwh"
+      ]
+    }
+  }
+}
